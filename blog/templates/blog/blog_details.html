@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Blog Details</h1>
+
+    <p><b>Title (Normal):</b> {{post.title}}</p>
+    <p><b>UpperCase:</b> {{post.title | upper}} </p>
+    <p><b>LowerCase:</b> {{post.title | lower }}</p>
+    <p><b>TruncateChars</b> {{post.title |truncatechars:20}}</p>
+</body>
+</html>
