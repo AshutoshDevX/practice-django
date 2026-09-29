@@ -8,3 +8,6 @@ def home(request):
 
 def products(request):
     return HttpResponse('Shop products page')
+
+def shop_list(request):
+    return render(request,'shop/shop_list.html')
