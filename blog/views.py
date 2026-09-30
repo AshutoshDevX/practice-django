@@ -45,3 +45,7 @@ def blog_details(request):
         "tags" : ["Django", "Python", "Web Development"],
     }
     return render(request, 'blog/blog_details.html',{"post":post})
+
+
+def home_view(request):
+    return HttpResponse('welcome to home page')

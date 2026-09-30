@@ -14,6 +14,8 @@ urlpatterns = [
 
     path('renderHtml/',views.post_list,name='post_list'),
 
-    path('blog-details/', views.blog_details, name='blog-details')
+    path('blog-details/', views.blog_details, name='blog-details'),
+
+    path('homeview/', views.home_view, name='home_view')
     
 ]
