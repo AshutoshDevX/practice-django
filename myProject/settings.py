@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'shop',
     'contact',
     'api',
-    'rest_framework'
+    'rest_framework',
+    'todo'
 ]
 
 MIDDLEWARE = [
